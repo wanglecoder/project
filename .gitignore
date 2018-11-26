@@ -1,0 +1,58 @@
+# eclipse project profile
+.settings/
+**/.settings/
+.classpath
+.project
+/.classpath
+/.project
+.settings/
+target/
+/Servers/
+
+# maven compile path
+target/
+# java compiled class
+*.class
+
+# Mac osx hide file
+.DS_Store
+
+# log file
+*.log
+/logs/
+
+**/bin/
+**/gen/
+**/bin/res/
+*.jcoDestination
+*.trc
+## .gitignore for intellij
+
+# IDEA工程文件
+*.iml
+*.ipr
+*.iws
+.idea/
+/.metadata
+
+# 本地上传测试路径
+src/main/webapp/upload/
+
+# maven前端插件自动安装的nodejs
+node/
+
+# nodejs模块目录
+node_modules/
+/dist/
+src/main/webapp/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
